@@ -16,6 +16,26 @@ Give Apache the ability to execute the scripts:
 
 Drop these scripts in their associated directories (/var/www and /home/pi)
 
+
+Modify the execute permissions for the files:
+
+	sudo chmod a+x /home/pi/gpiostatus.sh
+	sudo chmod a+x /home/pi/gpiotoggle.sh
+	sudo chmod a+x /home/pi/network-monitor.sh
+
+
+Add The netwrok monitor script to run at startup
+
+	sudo nano /etc/rc.local
+	
+Add this to the end of rc.local
+
+	#This is to monitor and restart wireless as needed
+	/bin/sh /network-monitor.sh &
+
+
+
+
 Edit the password in index.php (currently set to "cluck")
 
 connect your relay board (Sainsmart or otherwise) to GPIO 18.
