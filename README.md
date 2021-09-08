@@ -34,3 +34,4 @@ To do...
 *Setup a crontab file that toggles the door at sunset and sunrise.
 
 *Add a live video of the door in the app from a web cam.
+*Update instructions to unzip all this junk to the appropriate directoreis with wget and gunzip
