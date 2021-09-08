@@ -38,7 +38,7 @@ Add this to the end of rc.local
 
 Edit the password in index.php (currently set to "cluck")
 
-connect your relay board (Sainsmart or otherwise) to GPIO 18.
+connect your relay board (Sainsmart or otherwise) to GPIO 18. This will be the coop door. 
 
 connect a magnetic switch to GPIO 20 as follows: 
 
