@@ -21,7 +21,7 @@ Modify the execute permissions for the files:
 
 	sudo chmod a+x /home/pi/gpiostatus.py
 	sudo chmod a+x /home/pi/gpiotoggle.py
-	sudo chmod a+x /home/pi/network-monitor.sh
+	sudo chmod a+x /home/pi/wifi-monitor.sh
 
 
 Add The netwrok monitor script to run at startup
