@@ -28,3 +28,9 @@ connect a magnetic switch to GPIO 20 as follows:
 
 
 Browse from your mobile phone to your device.
+
+To do...
+
+*Setup a crontab file that toggles the door at sunset and sunrise.
+
+*Add a live video of the door in the app from a web cam.
