@@ -19,8 +19,8 @@ Drop these scripts in their associated directories (/var/www and /home/pi)
 
 Modify the execute permissions for the files:
 
-	sudo chmod a+x /home/pi/gpiostatus.sh
-	sudo chmod a+x /home/pi/gpiotoggle.sh
+	sudo chmod a+x /home/pi/gpiostatus.py
+	sudo chmod a+x /home/pi/gpiotoggle.py
 	sudo chmod a+x /home/pi/network-monitor.sh
 
 
