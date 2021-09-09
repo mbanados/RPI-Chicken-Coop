@@ -43,7 +43,7 @@ Add The netwrok monitor script to run at startup
 Add this to the end of rc.local
 
 	#This is to monitor and restart wireless as needed
-	/bin/sh /network-monitor.sh &
+	/bin/sh /home/pi/wifi-monitor.sh &
 
 
 
