@@ -12,7 +12,11 @@ Install Apache as follows:
 
 Give Apache the ability to execute the scripts: 
 
-	sudo visudu Add the following line of text: www-data ALL=(ALL) NOPASSWD: ALL
+	sudo visudu 
+	
+Add the following line of text: 
+
+	www-data ALL=(ALL) NOPASSWD: ALL
 
 From your home directory (usually /home/pi) run this command to drop these scripts in their associated directories (/var/www and /home/pi)
 
