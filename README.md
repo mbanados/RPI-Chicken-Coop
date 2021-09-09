@@ -16,6 +16,14 @@ Give Apache the ability to execute the scripts:
 
 Drop these scripts in their associated directories (/var/www and /home/pi)
 
+From your home directory (usually /home/pi run this command
+
+	git clone https://github.com/mbanados/RPI-Chicken-Coop.git
+	sudo cp -r ./RPI-Chicken-Coop/home /	
+	sudo cp -r ./RPI-Chicken-Coop/var /
+	
+	
+
 
 Modify the execute permissions for the files:
 
