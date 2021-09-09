@@ -22,6 +22,10 @@ From your home directory (usually /home/pi run this command
 	sudo cp -r ./RPI-Chicken-Coop/home /	
 	sudo cp -r ./RPI-Chicken-Coop/var /
 	
+Optionally delete the git clone 
+	
+	rm -rf ./RPI-Chicken-Coop
+	
 	
 
 
