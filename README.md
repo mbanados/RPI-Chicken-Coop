@@ -14,9 +14,7 @@ Give Apache the ability to execute the scripts:
 
 	sudo visudu Add the following line of text: www-data ALL=(ALL) NOPASSWD: ALL
 
-Drop these scripts in their associated directories (/var/www and /home/pi)
-
-From your home directory (usually /home/pi run this command
+From your home directory (usually /home/pi) run this command to drop these scripts in their associated directories (/var/www and /home/pi)
 
 	git clone https://github.com/mbanados/RPI-Chicken-Coop.git
 	sudo cp -r ./RPI-Chicken-Coop/home /	
