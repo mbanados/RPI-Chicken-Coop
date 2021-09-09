@@ -63,7 +63,8 @@ Browse from your mobile phone to your device.
 
 To do...
 
-*Setup a crontab file that toggles the door at sunset and sunrise.
+*Setup a crontab file that toggles the door at sunset and sunrise. maybe with https://github.com/mfreeborn/heliocron
 
 *Add a live video of the door in the app from a web cam.
-*Update instructions to unzip all this junk to the appropriate directoreis with wget and gunzip
+
+Note for some reason I like to keep my .py files in the home directory instead of www I just do that.. 
