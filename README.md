@@ -50,6 +50,11 @@ Edit the password in index.php (currently set to "cluck")
 
 	sudo nano /var/www/index.php
 
+Give your PI a friendly name to browse to (assuming you use your home router for DNS and it dynamically updates its DNS and such) 
+
+	sudo nano /etc/hostname
+
+
 connect your relay board (Sainsmart or otherwise) to GPIO 18. This will be the coop door. 
 
 connect a magnetic switch to GPIO 20 as follows: 
@@ -65,6 +70,6 @@ To do...
 
 *Setup a crontab file that toggles the door at sunset and sunrise. maybe with https://github.com/mfreeborn/heliocron
 
-*Add a live video of the door in the app from a web cam.
+*Optionally Add a live video of the door in the app from a web cam based on "customer" desire
 
 Note for some reason I like to keep my .py files in the home directory instead of www I just do that.. 
