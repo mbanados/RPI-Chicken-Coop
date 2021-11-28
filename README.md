@@ -2,7 +2,7 @@
 Chicken Coop Controller
 Raspberry Pi based password protected chicken coop door mobile app
 
-This is a PHP/jquery script that initiates a python script to toggle three GPIO ports that are attached to a relay board. The intent is to toggle the coop door. The mobile app is password protected by a password you specify in the PHP script. There are many of these kinds of scripts out there but this one will make a cookie with a hashed copy of the password so you only have to authenticate once and the password is not on your device. Garage door status is also displayed via a magnetic switch on the door.
+This is a PHP/jquery script that initiates a python script to toggle three GPIO ports that are attached to a relay board. The intent is to toggle the coop door. The mobile app is password protected by a password you specify in the PHP script. There are many of these kinds of scripts out there but this one will make a cookie with a hashed copy of the password so you only have to authenticate once and the password is not on your device. The door status is also displayed via a magnetic switch on the door.
 
 Setup a Raspberry Pi
 
